@@ -11,9 +11,9 @@ const LandingPage = () => {
 
       <div className="flex flex-col gap-4 mt-8">
         {/* Small Buttons */}
-        <Button title="Small - Rounded Sm" styles="bg-blue-500 text-sm rounded-sm" />
-        <Button title="Small - Rounded Md" styles="bg-green-500 text-sm rounded-md" />
-        <Button title="Small - Rounded Full" styles="bg-purple-500 text-sm rounded-full" />
+        <Button title="Small - Rounded Sm" styles="bg-blue-500 text-sm rounded-sm [rounded-lg]" />
+        <Button title="Small - Rounded Md" styles="bg-green-500 text-sm rounded-md [rounded-lg]" />
+        <Button title="Small - Rounded Full" styles="bg-purple-500 text-sm rounded-full [rounded-lg]" />
 
         {/* Medium Buttons */}
         <Button title="Medium - Rounded Sm" styles="bg-yellow-500 text-base rounded-sm" />
